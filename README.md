@@ -8,7 +8,7 @@ How to use it
 
 Let's say you have a model like so:
 
-````
+````coffeescript
 App.Person = DS.Model.extend
   firstName: DS.attr('string')
   lastName: DS.attr('string')
@@ -18,7 +18,7 @@ App.Person = DS.Model.extend
 
 Then imagine you have a route like so:
 
-````
+````coffeescript
 App.Router.map ->
   @resource "persons"
 
@@ -28,7 +28,7 @@ App.PersonsRoute = Ember.Route.extend
 
 Then in your persons template, all you need to do is:
 
-````
+````handlebars
 {{ magic_editable_table }}
 ````
 

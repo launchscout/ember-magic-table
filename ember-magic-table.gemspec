@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Chris Nelson"]
   s.email       = ["chris@gaslightsoftware.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: An ember component that produces an editable table given an Ember Data Model}
-  s.description = %q{TODO: Uses ember-table. Makes all the properties editable. Is awesome(ish)}
+  s.summary     = %q{An ember component that produces an editable table given an Ember Data Model}
+  s.description = %q{Uses ember-table. Makes all the properties editable. Is awesome(ish)}
 
   s.rubyforge_project = "ember-magic-table"
 

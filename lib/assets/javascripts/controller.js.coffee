@@ -5,15 +5,21 @@ Magic.EditableTableController = Ember.Table.TableController.extend Ember.Evented
   numRows: 5
   rowHeight: 30
 
+  cellEditors:
+    string: "Magic.EditableTableCell"
+    date: "Magic.DateEditableTableCell"
+    number: "Magic.EditableTableCell"
+
   columns: Ember.computed ->
     columns= []
     return unless @get("content")
+    cellEditors = @cellEditors
     for attrName, meta of @get("contentType").metaData()
       do (attrName) ->
         columns.push Ember.Table.ColumnDefinition.create
           headerCellName: attrName.capitalize()
           contentPath: attrName
-          tableCellViewClass: 'Magic.EditableTableCell'
+          tableCellViewClass: cellEditors[meta.type]
           setCellContent: (row, value) -> row.set(attrName, value)
     columns
   .property("content")

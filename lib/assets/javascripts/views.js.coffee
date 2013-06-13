@@ -33,6 +33,8 @@ Magic.EditableTableCell = Ember.Table.TableCell.extend
       @set 'isEditing', no
       @get("controller").finishedEditing()
 
+Magic.DateEditableTableCell = Magic.EditableTableCell.extend
+  type: "date"
 
 Magic.EditableTableContainer = Ember.Table.TablesContainer.extend Ember.Table.RowSelectionMixin,
   selectionBinding: 'controller.selection'

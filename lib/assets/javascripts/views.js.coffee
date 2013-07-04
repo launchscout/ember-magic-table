@@ -43,7 +43,7 @@ Magic.EditableTable = Ember.View.extend
   classNames: "presentation-container"
   template: Ember.Handlebars.compile ( '{{view Magic.EditableTableContainer}}\n<button class="button" {{action add}}>Add</button>')
 
-Ember.Handlebars.registerHelper 'magic_editable_table', (path, options) ->
+Ember.Handlebars.registerHelper 'magicEditableTable', (path, options) ->
   unless options
     options = path
     path = "controller"

@@ -1,7 +1,7 @@
-Magic Editable Table
+Ember Magic Table
 ====================
 
-Magic Editable Table, like the name implies, will magically build you a table from a collection of Ember Data models. It uses ember-table to do the heavy lifting. You can click to edit any cell, and it will commit to the data store on enter. You can also add rows (and probably remove them in the near future).
+Ember Magic Table, like the name implies, will magically build you a table from a collection of Ember Data models. It uses ember-table to do the heavy lifting. You can click to edit any cell, and it will commit to the data store on enter. You can also add rows (and probably remove them in the near future).
 
 How to use it
 -------------

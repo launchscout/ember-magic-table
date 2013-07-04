@@ -29,7 +29,7 @@ App.PersonsRoute = Ember.Route.extend
 Then in your persons template, all you need to do is:
 
 ````handlebars
-{{ magic_editable_table }}
+{{ magicEditableTable }}
 ````
 
 Poof, you have table of people. You can add people, edit them, yay!

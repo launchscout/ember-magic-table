@@ -5,7 +5,7 @@ require "ember-magic-table/version"
 Gem::Specification.new do |s|
   s.name        = "ember-magic-table"
   s.version     = Ember::Magic::Table::VERSION
-  s.authors     = ["Chris Nelson"]
+  s.authors     = ["Chris Nelson", "Wesley Workman"]
   s.email       = ["chris@gaslightsoftware.com"]
   s.homepage    = ""
   s.summary     = %q{An ember component that produces an editable table given an Ember Data Model}

@@ -51,7 +51,7 @@ Fully working example app: https://github.com/gaslight/ember-magic-table_example
 What next?
 ----------
 
-So this started as a spike to see if I could do it. It could be I incorporate into a larger ember_admin kind of project. Not sure just yet. There are some features that would be handy tho:
+So this started as a spike to see if we could do it. It could be we incorporate into a larger ember_admin kind of project. Not sure just yet. There are some features that would be handy tho:
 
 * Destroy
 * Relationships
@@ -65,7 +65,7 @@ TBD: Blarg post explaining the codez
 Authors
 -------
 
-Chris Nelson
-Wesley Workman
+* Chris Nelson
+* Wesley Workman
 
 

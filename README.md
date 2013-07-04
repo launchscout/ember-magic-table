@@ -34,6 +34,11 @@ Then in your persons template, all you need to do is:
 
 Poof, you have table of people. You can add people, edit them, yay!
 
+Prove it
+--------
+
+Fully working example app: https://github.com/gaslight/ember-magic-table_example
+
 How does it work
 ----------------
 
